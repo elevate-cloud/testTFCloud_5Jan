@@ -3,8 +3,8 @@ variable "rg_name" {
     type = string
 
 }
-#  variable "location" {
-#    type = string
-#    default = "canadacentral"
+ variable "rg_location" {
+   type = string
+   default = "West Europe"
 
-#  }
+ }
